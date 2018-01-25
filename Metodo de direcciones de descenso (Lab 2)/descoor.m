@@ -1,6 +1,7 @@
 function [ xf, iter ] = descoor (fname, x)
 % Método de descenso por coordenadas para aproximar un mínimo local de
 % fname:R^n --> R, continuamente diferenciable 
+% El método es descenso por coordenadas. 
 % In
 % fname.- cadena de caracteres on el nombre de la función a minimizar. 
 % x.- vector columna de orden n que es el punto inicial. 
